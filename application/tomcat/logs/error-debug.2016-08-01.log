@@ -1,0 +1,210 @@
+01-Aug-2016 20:41:45.103 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Aug-2016 20:41:45.119 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web]
+01-Aug-2016 20:41:45.170 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+01-Aug-2016 20:41:45.775 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+01-Aug-2016 20:41:45.962 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+ org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/application/web/WEB-INF/spring/application_context.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/application_context.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/application_context.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 21 more
+
+01-Aug-2016 20:41:45.962 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+01-Aug-2016 20:41:45.962 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class org.springframework.web.context.ContextLoaderListener
+ java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:884)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4813)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5413)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Aug-2016 20:41:46.056 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+01-Aug-2016 20:44:54.796 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Aug-2016 20:44:54.827 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web]
+01-Aug-2016 20:44:54.858 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+01-Aug-2016 20:44:55.405 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+01-Aug-2016 20:44:57.577 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+01-Aug-2016 20:44:57.577 SEVERE [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log StandardWrapper.Throwable
+ org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/application/web/WEB-INF/spring/mvc.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/mvc.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1241)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1154)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1041)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4944)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/mvc.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 28 more
+
+01-Aug-2016 20:44:57.577 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.loadOnStartup Servlet /api threw load() exception
+ java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/mvc.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1241)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1154)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1041)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4944)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Aug-2016 20:44:57.640 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+01-Aug-2016 20:44:57.640 SEVERE [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log StandardWrapper.Throwable
+ org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/application/web/WEB-INF/spring/services/service_dispatcher-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/services/service_dispatcher-servlet.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1241)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1154)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1041)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4944)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/services/service_dispatcher-servlet.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 28 more
+
+01-Aug-2016 20:44:57.640 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.loadOnStartup Servlet /api threw load() exception
+ java.io.FileNotFoundException: Could not open ServletContext resource [/application/web/WEB-INF/spring/services/service_dispatcher-servlet.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1241)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1154)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1041)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4944)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1399)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Aug-2016 20:46:03.570 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+01-Aug-2016 20:46:03.586 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+01-Aug-2016 20:46:12.262 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Aug-2016 20:46:12.293 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web]
+01-Aug-2016 20:46:12.340 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\Intellij_WorkPlace\MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+01-Aug-2016 20:46:12.825 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+01-Aug-2016 20:46:14.747 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+01-Aug-2016 20:46:14.887 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+01-Aug-2016 20:46:33.994 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+01-Aug-2016 20:46:33.994 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+01-Aug-2016 20:46:34.009 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+01-Aug-2016 20:46:34.009 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j

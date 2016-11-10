@@ -1,0 +1,271 @@
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | Caused by: java.sql.SQLException: Access denied for user 'qlt_admin'@'27.17.53.66' (using password: YES)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1084)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4232)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4164)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:926)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1748)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1288)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2506)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+INFO   | jvm 1    | 2016/08/02 20:32:06 | 	... 63 more
+INFO   | jvm 1    | 2016/08/02 20:32:06 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/08/02 20:32:06 | test1 method start!
+STATUS | wrapper  | 2016/08/02 20:35:39 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/02 20:35:39 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2016/08/02 20:35:39 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/02 20:35:39 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/02 20:35:39 | 
+STATUS | wrapper  | 2016/08/02 20:35:39 | Launching a JVM...
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: WARNING - The Wrapper jar file currently in use is version "3.5.25"
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           while the version of the Wrapper which launched this JVM is
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           "3.5.14".
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           and is not supported.
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           following files:
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:             F:\Intellij_WorkPlace\MIS_Simp\AGP\application\bin\..\lib
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2016/08/02 20:35:39 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.170 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.510 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.575 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.577 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 407 ms
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.583 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+INFO   | jvm 1    | 2016/08/02 20:35:40 | 02-Aug-2016 20:35:40.583 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+INFO   | jvm 1    | 2016/08/02 20:35:44 | Hello. Application Started.
+INFO   | jvm 1    | 2016/08/02 20:35:44 | Working Dir: F:\Intellij_WorkPlace\MIS_Simp\AGP\application\bin\..
+INFO   | jvm 1    | 2016/08/02 20:35:44 | ‘≠ º£∫mcg
+INFO   | jvm 1    | 2016/08/02 20:35:44 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/08/02 20:35:45 | B1c3n8wYMPOGWbaqiQILDA/Z6fba3PXB3fqX3xif4OiZAJTYX0O0Ibze55H4ZEr+
+INFO   | jvm 1    | 2016/08/02 20:35:45 | 
+INFO   | jvm 1    | 2016/08/02 20:35:45 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/08/02 20:35:45 | log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+INFO   | jvm 1    | 2016/08/02 20:35:45 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2016/08/02 20:35:45 | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+INFO   | jvm 1    | 2016/08/02 20:35:47 | π˝¬À∆˜≥ı ºªØ
+INFO   | jvm 1    | 2016/08/02 20:35:48 | 02-Aug-2016 20:35:48.188 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:35:48 | 02-Aug-2016 20:35:48.200 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 7623 ms
+INFO   | jvm 1    | 2016/08/02 20:35:52 | AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/08/02 20:35:52 | DAO start
+INFO   | jvm 1    | 2016/08/02 20:35:52 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/08/02 20:35:52 | test1 method start!
+STATUS | wrapper  | 2016/08/02 20:36:42 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.675 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.731 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+INFO   | jvm 1    | 2016/08/02 20:36:42 | Hello. Application Stopped.
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.770 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.770 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.770 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.771 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+INFO   | jvm 1    | 2016/08/02 20:36:42 |  java.lang.Thread.sleep(Native Method)
+INFO   | jvm 1    | 2016/08/02 20:36:42 |  org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.771 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+INFO   | jvm 1    | 2016/08/02 20:36:42 |  java.lang.Object.wait(Native Method)
+INFO   | jvm 1    | 2016/08/02 20:36:42 |  java.lang.ref.ReferenceQueue.remove(Unknown Source)
+INFO   | jvm 1    | 2016/08/02 20:36:42 |  com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.779 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:36:42 | 02-Aug-2016 20:36:42.785 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+STATUS | wrapper  | 2016/08/02 20:36:43 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/02 20:37:07 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/02 20:37:07 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2016/08/02 20:37:07 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/02 20:37:07 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/02 20:37:07 | 
+STATUS | wrapper  | 2016/08/02 20:37:07 | Launching a JVM...
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: WARNING - The Wrapper jar file currently in use is version "3.5.25"
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           while the version of the Wrapper which launched this JVM is
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           "3.5.14".
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           and is not supported.
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           following files:
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:             F:\Intellij_WorkPlace\MIS_Simp\AGP\application\bin\..\lib
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2016/08/02 20:37:08 | WrapperManager: 
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.318 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.635 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.700 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.703 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 386 ms
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.711 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+INFO   | jvm 1    | 2016/08/02 20:37:08 | 02-Aug-2016 20:37:08.711 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+INFO   | jvm 1    | 2016/08/02 20:37:13 | Hello. Application Started.
+INFO   | jvm 1    | 2016/08/02 20:37:13 | Working Dir: F:\Intellij_WorkPlace\MIS_Simp\AGP\application\bin\..
+INFO   | jvm 1    | 2016/08/02 20:37:13 | ‘≠ º£∫mcg
+INFO   | jvm 1    | 2016/08/02 20:37:13 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/08/02 20:37:13 | RpYX9ImZWWQczF+getwebU44WnFfthjl3vATXov+Qx03+N4J93m4C5ryAcZBCfSo
+INFO   | jvm 1    | 2016/08/02 20:37:13 | 
+INFO   | jvm 1    | 2016/08/02 20:37:13 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/08/02 20:37:13 | log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+INFO   | jvm 1    | 2016/08/02 20:37:13 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2016/08/02 20:37:13 | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+INFO   | jvm 1    | 2016/08/02 20:37:15 | π˝¬À∆˜≥ı ºªØ
+INFO   | jvm 1    | 2016/08/02 20:37:15 | 02-Aug-2016 20:37:15.936 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/08/02 20:37:15 | 02-Aug-2016 20:37:15.949 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 7245 ms
+INFO   | jvm 1    | 2016/08/02 20:37:24 | AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/08/02 20:37:24 | DAO start
+INFO   | jvm 1    | 2016/08/02 20:37:24 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/08/02 20:37:24 | test1 method start!
+STATUS | wrapper  | 2016/11/09 22:23:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/11/09 22:23:34 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2016/11/09 22:23:34 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/11/09 22:23:34 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/11/09 22:23:34 | 
+STATUS | wrapper  | 2016/11/09 22:23:35 | Launching a JVM...
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: WARNING - The Wrapper jar file currently in use is version "3.5.25"
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           while the version of the Wrapper which launched this JVM is
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           "3.5.14".
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           and is not supported.
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           following files:
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:             D:\Users\it189\Documents\WebFramework\WebFramework\application\bin\..\lib
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2016/11/09 22:23:35 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:23:35 | 09-Nov-2016 22:23:35.875 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+INFO   | jvm 1    | 2016/11/09 22:23:36 | 09-Nov-2016 22:23:36.249 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/09 22:23:36 | 09-Nov-2016 22:23:36.359 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+INFO   | jvm 1    | 2016/11/09 22:23:36 | 09-Nov-2016 22:23:36.361 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 486 ms
+INFO   | jvm 1    | 2016/11/09 22:23:36 | 09-Nov-2016 22:23:36.369 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+INFO   | jvm 1    | 2016/11/09 22:23:36 | 09-Nov-2016 22:23:36.369 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+INFO   | jvm 1    | 2016/11/09 22:23:43 | Hello. Application Started.
+INFO   | jvm 1    | 2016/11/09 22:23:43 | Working Dir: D:\Users\it189\Documents\WebFramework\WebFramework\application\bin\..
+INFO   | jvm 1    | 2016/11/09 22:23:43 | ‘≠ º£∫mcg
+INFO   | jvm 1    | 2016/11/09 22:23:43 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/11/09 22:23:44 | KK44rVDuO0gVzcFnQKcLT+oWxHJ6JXMcO7poGP3RPNXx+FRGvjQLCjfNZcG3ewXp
+INFO   | jvm 1    | 2016/11/09 22:23:44 | 
+INFO   | jvm 1    | 2016/11/09 22:23:44 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/11/09 22:23:44 | log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+INFO   | jvm 1    | 2016/11/09 22:23:44 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2016/11/09 22:23:44 | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+INFO   | jvm 1    | 2016/11/09 22:23:48 | π˝¬À∆˜≥ı ºªØ
+INFO   | jvm 1    | 2016/11/09 22:23:48 | 09-Nov-2016 22:23:48.915 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/09 22:23:49 | 09-Nov-2016 22:23:48.923 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 12561 ms
+STATUS | wrapper  | 2016/11/09 22:27:40 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/11/09 22:27:40 | 09-Nov-2016 22:27:40.656 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/09 22:27:40 | 09-Nov-2016 22:27:40.715 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+STATUS | wrapper  | 2016/11/09 22:27:43 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2016/11/09 22:27:43 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2016/11/09 22:27:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/11/09 22:29:26 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/11/09 22:29:26 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2016/11/09 22:29:26 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/11/09 22:29:26 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/11/09 22:29:26 | 
+STATUS | wrapper  | 2016/11/09 22:29:26 | Launching a JVM...
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: WARNING - The Wrapper jar file currently in use is version "3.5.25"
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           while the version of the Wrapper which launched this JVM is
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           "3.5.14".
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           and is not supported.
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           following files:
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:             D:\Users\it189\Documents\WebFramework\WebFramework\application\bin\..\lib
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2016/11/09 22:29:26 | WrapperManager: 
+INFO   | jvm 1    | 2016/11/09 22:29:26 | 09-Nov-2016 22:29:26.763 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+INFO   | jvm 1    | 2016/11/09 22:29:27 | 09-Nov-2016 22:29:27.057 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/09 22:29:27 | 09-Nov-2016 22:29:27.146 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+INFO   | jvm 1    | 2016/11/09 22:29:27 | 09-Nov-2016 22:29:27.148 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 385 ms
+INFO   | jvm 1    | 2016/11/09 22:29:27 | 09-Nov-2016 22:29:27.158 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+INFO   | jvm 1    | 2016/11/09 22:29:27 | 09-Nov-2016 22:29:27.158 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+INFO   | jvm 1    | 2016/11/09 22:29:32 | Hello. Application Started.
+INFO   | jvm 1    | 2016/11/09 22:29:32 | Working Dir: D:\Users\it189\Documents\WebFramework\WebFramework\application\bin\..
+INFO   | jvm 1    | 2016/11/09 22:29:32 | ‘≠ º£∫mcg
+INFO   | jvm 1    | 2016/11/09 22:29:32 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/11/09 22:29:32 | sMfdIcVwlhP2lpAUl7kwNDgPtnkh3QkECLo+3oI+hXFagyt7REcoq3KjklYomRiv
+INFO   | jvm 1    | 2016/11/09 22:29:32 | 
+INFO   | jvm 1    | 2016/11/09 22:29:32 | 09d3b901b15b43dbdd8cf05e050d6569
+INFO   | jvm 1    | 2016/11/09 22:29:32 | log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+INFO   | jvm 1    | 2016/11/09 22:29:32 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2016/11/09 22:29:32 | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+INFO   | jvm 1    | 2016/11/09 22:29:36 | π˝¬À∆˜≥ı ºªØ
+INFO   | jvm 1    | 2016/11/09 22:29:36 | 09-Nov-2016 22:29:36.602 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/09 22:29:36 | 09-Nov-2016 22:29:36.610 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 9460 ms
+INFO   | jvm 1    | 2016/11/09 22:32:28 | AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:32:28 | Test Frame Succeed!
+INFO   | jvm 1    | 2016/11/09 22:32:28 | DAO start
+INFO   | jvm 1    | 2016/11/09 22:32:28 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:32:28 | test1 method start!
+INFO   | jvm 1    | 2016/11/09 22:34:03 | AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:34:03 | Test Frame Succeed!
+INFO   | jvm 1    | 2016/11/09 22:34:03 | DAO start
+INFO   | jvm 1    | 2016/11/09 22:34:03 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:34:03 | test1 method start!
+INFO   | jvm 1    | 2016/11/09 22:34:16 | AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:34:16 | Test Frame Succeed!
+INFO   | jvm 1    | 2016/11/09 22:34:16 | DAO start
+INFO   | jvm 1    | 2016/11/09 22:34:16 | controller start!AOP≤‚ ‘£∫method start
+INFO   | jvm 1    | 2016/11/09 22:34:16 | test1 method start!
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.126 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.193 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+INFO   | jvm 1    | 2016/11/10 16:10:58 | Hello. Application Stopped.
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.271 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.275 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.276 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.277 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+INFO   | jvm 1    | 2016/11/10 16:10:58 |  java.lang.Thread.sleep(Native Method)
+INFO   | jvm 1    | 2016/11/10 16:10:58 |  org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.278 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+INFO   | jvm 1    | 2016/11/10 16:10:58 |  java.lang.Object.wait(Native Method)
+INFO   | jvm 1    | 2016/11/10 16:10:58 |  java.lang.ref.ReferenceQueue.remove(Unknown Source)
+INFO   | jvm 1    | 2016/11/10 16:10:58 |  com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.299 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+INFO   | jvm 1    | 2016/11/10 16:10:58 | 10-Nov-2016 16:10:58.306 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+STATUS | wrapper  | 2016/11/10 16:10:59 | Close trapped.  Shutting down.
+STATUS | wrapper  | 2016/11/10 16:11:00 | <-- Wrapper Stopped

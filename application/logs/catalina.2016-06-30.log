@@ -1,0 +1,169 @@
+30-Jun-2016 09:28:14.718 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 09:28:15.110 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 09:28:15.184 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 09:28:15.186 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 468 ms
+30-Jun-2016 09:28:15.194 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 09:28:15.195 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 09:28:23.149 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 09:28:23.162 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 7975 ms
+30-Jun-2016 09:57:47.530 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 09:57:47.586 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 09:57:47.634 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 09:57:47.635 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 09:57:47.635 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 09:57:47.635 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 09:57:47.636 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 09:57:47.643 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 09:57:47.646 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:23:51.570 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 10:23:51.889 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:23:51.953 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 10:23:51.955 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 384 ms
+30-Jun-2016 10:23:51.962 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 10:23:51.962 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 10:23:58.000 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:23:58.011 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 6056 ms
+30-Jun-2016 10:37:34.296 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:37:34.359 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 10:37:34.399 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:37:34.399 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:37:34.399 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:37:34.400 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 10:37:34.401 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 10:37:34.407 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:37:34.412 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:40:02.646 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 10:40:03.118 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:40:03.202 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 10:40:03.205 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 560 ms
+30-Jun-2016 10:40:03.215 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 10:40:03.216 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 10:40:09.259 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:40:09.271 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 6065 ms
+30-Jun-2016 10:59:12.188 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:59:12.243 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 10:59:12.284 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:59:12.284 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:59:12.284 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 10:59:12.285 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 10:59:12.285 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 10:59:12.290 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 10:59:12.298 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:31:23.434 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 15:31:23.767 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:31:23.836 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 15:31:23.838 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 404 ms
+30-Jun-2016 15:31:23.845 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 15:31:23.846 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 15:31:31.553 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:31:31.566 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 7728 ms
+30-Jun-2016 15:36:07.533 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:36:07.588 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 15:36:07.630 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:36:07.631 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:36:07.631 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:36:07.632 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 15:36:07.633 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 15:36:07.643 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:36:07.653 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:36:37.265 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 15:36:37.587 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:36:37.673 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 15:36:37.675 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 411 ms
+30-Jun-2016 15:36:37.684 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 15:36:37.684 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 15:36:44.291 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:36:44.303 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 6628 ms
+30-Jun-2016 15:39:56.613 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:39:56.668 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 15:39:56.708 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:39:56.708 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:39:56.708 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:39:56.709 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 15:39:56.709 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 15:39:56.715 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:39:56.722 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:40:30.677 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 15:40:31.047 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:40:31.123 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 15:40:31.125 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 448 ms
+30-Jun-2016 15:40:31.133 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 15:40:31.133 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 15:40:38.710 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:40:38.721 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 7596 ms
+30-Jun-2016 15:44:55.923 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:44:55.977 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 15:44:56.028 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:44:56.028 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:44:56.028 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 15:44:56.029 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 15:44:56.030 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 15:44:56.039 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:44:56.047 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:45:24.763 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 15:45:25.079 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:45:25.159 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 15:45:25.162 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+30-Jun-2016 15:45:25.170 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 15:45:25.170 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 15:45:32.108 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 15:45:32.120 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 6958 ms
+30-Jun-2016 17:00:50.148 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 17:00:50.482 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:00:50.554 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 17:00:50.557 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+30-Jun-2016 17:00:50.563 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 17:00:50.563 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 17:01:02.208 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:01:02.221 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 11664 ms
+30-Jun-2016 17:03:39.424 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:03:39.479 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jun-2016 17:03:39.518 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 17:03:39.519 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 17:03:39.519 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [api] registered the JDBC driver [com.mysql.fabric.jdbc.FabricMySQLDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2016 17:03:39.520 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+30-Jun-2016 17:03:39.520 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [api] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+30-Jun-2016 17:03:39.527 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:04:09.968 SEVERE [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at ../tomcat/temp
+30-Jun-2016 17:04:10.287 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:04:10.353 INFO [WrapperSimpleAppMain] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jun-2016 17:04:10.355 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.load Initialization processed in 386 ms
+30-Jun-2016 17:04:10.361 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jun-2016 17:04:10.361 INFO [WrapperSimpleAppMain] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+30-Jun-2016 17:04:17.243 INFO [WrapperSimpleAppMain] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18088"]
+30-Jun-2016 17:04:17.257 INFO [WrapperSimpleAppMain] org.apache.catalina.startup.Catalina.start Server startup in 6902 ms

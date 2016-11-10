@@ -1,0 +1,119 @@
+08-Jul-2016 11:52:22.082 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 11:52:22.102 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 11:52:22.147 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 11:52:22.703 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 11:52:24.523 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 11:52:24.682 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 11:55:04.573 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 11:55:04.581 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 11:55:04.596 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 11:55:04.604 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 11:55:39.665 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 11:55:39.712 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 11:55:39.843 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 11:55:40.744 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 11:55:43.200 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 11:55:43.441 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 11:57:03.507 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 11:57:03.511 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 11:57:03.514 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 11:57:03.517 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 11:57:59.238 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 11:57:59.262 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 11:57:59.328 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 11:57:59.999 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 11:58:01.712 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 11:58:01.879 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 12:00:27.515 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 12:00:27.525 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 12:00:27.555 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 12:00:27.560 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 12:00:57.223 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 12:00:57.240 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 12:00:57.285 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 12:00:57.791 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 12:00:59.485 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 12:00:59.654 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 12:03:27.168 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 12:03:27.176 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 12:03:27.188 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 12:03:27.196 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 12:04:03.388 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 12:04:03.406 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 12:04:03.455 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 12:04:03.987 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 12:04:05.622 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 12:04:05.786 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 13:51:13.038 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 13:51:13.041 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 13:51:13.045 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 13:51:13.048 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 17:29:19.264 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 17:29:19.292 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 17:29:19.374 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 17:29:20.141 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 17:29:22.564 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 17:29:22.796 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 17:31:42.398 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 17:31:42.403 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 17:31:42.407 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 17:31:42.411 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 17:31:51.427 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 17:31:51.472 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 17:31:51.633 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 17:31:51.834 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 17:31:56.028 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 17:31:56.520 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 17:33:14.404 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'view'
+08-Jul-2016 17:33:14.407 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 17:33:14.411 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+08-Jul-2016 17:33:14.415 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+08-Jul-2016 17:40:55.827 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+08-Jul-2016 17:40:55.847 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web]
+08-Jul-2016 17:40:55.898 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [F:\New_Thread\Git_NTP_APQTS_Code_Mid_MIS_Simp\AGP\application\web\WEB-INF\log4j.properties]
+08-Jul-2016 17:40:56.536 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+08-Jul-2016 17:40:59.639 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'view'
+08-Jul-2016 17:41:00.108 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'service_dispatcher'
+08-Jul-2016 17:43:37.298 SEVERE [http-nio-18088-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [service_dispatcher] in context with path [/api] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "%%"] with root cause
+ java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "%%"
+	at java.net.URLDecoder.decode(Unknown Source)
+	at com.trace.app.framework.controller.enterprise.infomation.CompanyController.updateCompany(CompanyController.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:781)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:721)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
